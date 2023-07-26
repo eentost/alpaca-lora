@@ -92,6 +92,7 @@ def main(
         top_k=40,
         num_beams=4,
         max_new_tokens=128,
+        repetition_penalty=4.8,        
         stream_output=False,
         **kwargs,
     ):
